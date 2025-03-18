@@ -102,7 +102,7 @@
         ></button>
         <button
           type="button"
-          data-bs-target="#heroCarousel"
+          data-bs-target="#heroCarousel"z
           data-bs-slide-to="2"
           aria-label="Slide 3"
         ></button>
@@ -174,6 +174,18 @@
       </button>
     </div>
 
+
+
+
+
+
+
+
+
+
+
+
+    
     <!-- Featured Content -->
     <section class="card-section">
       <div class="container">
@@ -205,7 +217,7 @@
                 src="/Assets/p2.jpg"
                 class="card-img-top"
                 alt="Mars Rover Photos"
-              />
+      </div>        />
               <div class="card-body">
                 <h5 class="card-title">Mars Rover Photos</h5>
                 <p class="card-text">
@@ -236,6 +248,117 @@
                 <a href="#" class="btn btn-primary"
                   ><i class="fas fa-cloud-sun me-2"></i>Check Weather</a
                 >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- Technology Stack Section -->
+    <section class="tech-stack-section py-5 bg-light">
+      <div class="container">
+        <h2 class="section-title text-center mb-5">Our Technology Stack</h2>
+        <div class="row g-4">
+          <!-- Frontend Technologies -->
+          <div class="col-md-6">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <h3 class="card-title"><i class="fas fa-laptop-code me-2 text-primary"></i>Frontend</h3>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item bg-transparent">
+                    <i class="fab fa-html5 me-2 text-danger"></i>
+                    <strong>HTML5</strong> - Structure and semantic markup
+                  </li>
+                  <li class="list-group-item bg-transparent">
+                    <i class="fab fa-css3-alt me-2 text-primary"></i>
+                    <strong>CSS3</strong> - Custom styling and animations
+                  </li>
+                  <li class="list-group-item bg-transparent">
+                    <i class="fab fa-js me-2 text-warning"></i>
+                    <strong>JavaScript</strong> - Interactive elements and API integration
+                  </li>
+                  <li class="list-group-item bg-transparent">
+                    <i class="fab fa-bootstrap me-2 text-purple"></i>
+                    <strong>Bootstrap 5.3.3</strong> - Responsive design framework
+                  </li>
+                  <li class="list-group-item bg-transparent">
+                    <i class="fab fa-font-awesome me-2 text-info"></i>
+                    <strong>Font Awesome</strong> - Icons and visual elements
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Backend Technologies -->
+          <div class="col-md-6">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <h3 class="card-title"><i class="fas fa-server me-2 text-success"></i>Backend</h3>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item bg-transparent">
+                    <i class="fas fa-leaf me-2 text-success"></i>
+                    <strong>Spring Boot</strong> - Java-based backend framework
+                  </li>
+                  <li class="list-group-item bg-transparent">
+                    <i class="fas fa-exchange-alt me-2 text-primary"></i>
+                    <strong>REST API</strong> - For NASA data integration
+                  </li>
+                  <li class="list-group-item bg-transparent">
+                    <i class="fas fa-database me-2 text-info"></i>
+                    <strong>MySQL</strong> - Relational database for data storage
+                  </li>
+                  <li class="list-group-item bg-transparent">
+                    <i class="fas fa-shield-alt me-2 text-danger"></i>
+                    <strong>Spring Security</strong> - Authentication and authorization
+                  </li>
+                  <li class="list-group-item bg-transparent">
+                    <i class="fas fa-project-diagram me-2 text-warning"></i>
+                    <strong>Spring Data JPA</strong> - Database integration
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- User Input Form -->
+          <div class="col-md-12 mt-5">
+            <div class="card border-0 shadow-sm">
+              <div class="card-body">
+                <h3 class="card-title text-center mb-4"><i class="fas fa-users-cog me-2 text-primary"></i>Technology Feedback</h3>
+                <form class="row g-3">
+                  <div class="col-md-6">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your name">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your email">
+                  </div>
+                  <div class="col-md-12">
+                    <label for="experience" class="form-label">Your Experience with These Technologies</label>
+                    <select class="form-select" id="experience">
+                      <option selected>Select your experience level</option>
+                      <option value="beginner">Beginner</option>
+                      <option value="intermediate">Intermediate</option>
+                      <option value="advanced">Advanced</option>
+                      <option value="expert">Expert</option>
+                    </select>
+                  </div>
+                  <div class="col-md-12">
+                    <label for="feedback" class="form-label">Technology Feedback</label>
+                    <textarea class="form-control" id="feedback" rows="3" placeholder="Share your thoughts on our technology stack"></textarea>
+                  </div>
+                  <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-primary px-4">Submit Feedback</button>
+                  </div>
+                </form>
               </div>
             </div>
           </div>
@@ -286,6 +409,53 @@
         </div>
       </div>
     </footer>
+
+
+
+<!-- 
+    
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+              <li class="nav-item">
+                <a href="#" class="nav-link px-2">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link px-2">Features</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link px-2">Documentation</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link px-2">FAQs</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link px-2">About</a>
+              </li>
+            </ul>
+            <div class="d-flex justify-content-center">
+              <a href="#" class="me-3 text-decoration-none">
+                <i class="fab fa-twitter fa-lg" style="color: #1da1f2"></i>
+              </a>
+              <a href="#" class="me-3 text-decoration-none">
+                <i class="fab fa-facebook fa-lg" style="color: #4267b2"></i>
+              </a>
+              <a href="#" class="me-3 text-decoration-none">
+                <i class="fab fa-linkedin fa-lg" style="color: #146bee"></i>
+              </a>
+              <a href="#" class="text-decoration-none">
+                <i class="fab fa-github fa-lg" style="color: #080808"></i>
+              </a>
+            </div>
+            <p class="text-center copyright mt-3">
+              © 2024 NASA-API Explorer. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer> -->
 
     <script>
       // Get all nav links
